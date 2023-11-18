@@ -1,0 +1,32 @@
+:root {
+  --inkdark: rgba(37, 42, 49, 1);
+  --cloudnormal: rgba(232, 237, 241, 1);
+  --clouddark: rgba(186, 199, 213, 1);
+  --inklight: rgba(105, 125, 149, 1);
+  --white: rgba(255, 255, 255, 1);
+  --ink-normal: rgba(37, 42, 49, 1);
+  --blue-normal: rgba(1, 114, 203, 1);
+  --red-normal: rgba(210, 28, 28, 1);
+  --text-normal-medium-font-family: "CircularPro-Medium", Helvetica;
+  --text-normal-medium-font-weight: 500;
+  --text-normal-medium-font-size: 14px;
+  --text-normal-medium-letter-spacing: 0px;
+  --text-normal-medium-line-height: 20px;
+  --text-normal-medium-font-style: normal;
+  --text-large-regular-font-family: "CircularPro-Book", Helvetica;
+  --text-large-regular-font-weight: 400;
+  --text-large-regular-font-size: 16px;
+  --text-large-regular-letter-spacing: 0px;
+  --text-large-regular-line-height: 24px;
+  --text-large-regular-font-style: normal;
+  --text-normal-regular-font-family: "CircularPro-Book", Helvetica;
+  --text-normal-regular-font-weight: 400;
+  --text-normal-regular-font-size: 14px;
+  --text-normal-regular-letter-spacing: 0px;
+  --text-normal-regular-line-height: 20px;
+  --text-normal-regular-font-style: normal;
+  --focus-help: 2px 2px 0px 0px rgba(232, 244, 253, 1), 2px -2px 0px 0px rgba(232, 244, 253, 1),
+    -2px 2px 0px 0px rgba(232, 244, 253, 1), -2px -2px 0px 0px rgba(232, 244, 253, 1);
+  --focus-error: 2px 2px 0px 0px rgba(250, 234, 234, 1), 2px -2px 0px 0px rgba(250, 234, 234, 1),
+    -2px 2px 0px 0px rgba(250, 234, 234, 1), -2px -2px 0px 0px rgba(250, 234, 234, 1);
+}
