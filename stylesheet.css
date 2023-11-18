@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: #ccc;
+    margin: 1px 0;
+}
+
+nav {
+    overflow: hidden;
+    padding-top: 1vh;
+}
+
+nav a {
+    display: flex;
+    text-decoration: none;
+    color: #000000;
+    padding: 8px 16px;
+    display: block;
+    float: left;
+}
+
+nav .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav .right-links {
+    float: right;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
