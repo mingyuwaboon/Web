@@ -1,0 +1,131 @@
+.sign-up {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.sign-up .div {
+  background-color: #ffffff;
+  width: 1280px;
+  height: 832px;
+  position: relative;
+}
+
+.sign-up .inputfield-with {
+  display: flex;
+  flex-direction: column;
+  width: 448px;
+  height: 49px;
+  align-items: flex-start;
+  gap: 4px;
+  position: absolute;
+  top: 391px;
+  left: 416px;
+}
+
+.sign-up .label {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "ABeeZee", Helvetica;
+  font-weight: 400;
+  color: var(--inkdark);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.sign-up .input-field {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  margin-bottom: -19px;
+  background-color: var(--cloudnormal);
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: var(--clouddark);
+}
+
+.sign-up .inputfield-with-2 {
+  display: flex;
+  flex-direction: column;
+  width: 448px;
+  align-items: flex-start;
+  gap: 4px;
+  position: absolute;
+  top: 483px;
+  left: 416px;
+}
+
+.sign-up .input-field-2 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--cloudnormal);
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: var(--clouddark);
+}
+
+.sign-up .tag {
+  display: flex;
+  width: 122px;
+  height: 45px;
+  align-items: center;
+  padding: 24px 41px 24px 32px;
+  position: absolute;
+  top: 580px;
+  left: 416px;
+  background-color: #d4ecd4;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.sign-up .text-wrapper {
+  position: relative;
+  width: 130px;
+  margin-top: -14.47px;
+  margin-bottom: -7.53px;
+  margin-right: -41px;
+  font-family: "ABeeZee", Helvetica;
+  font-weight: 400;
+  color: #4f1708;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.sign-up .label-wrapper {
+  display: flex;
+  width: 122px;
+  height: 45px;
+  align-items: center;
+  padding: 24px 41px 24px 32px;
+  position: absolute;
+  top: 580px;
+  left: 557px;
+  background-color: #d4dcec;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.sign-up .profile-icon {
+  position: absolute;
+  width: 185px;
+  height: 195px;
+  top: 148px;
+  left: 547px;
+  object-fit: cover;
+}
