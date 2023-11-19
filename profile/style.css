@@ -1,0 +1,171 @@
+body {
+  font-family: 'ABeeZee', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header::after {
+  content: '';
+  display: block;
+  height: 1px;
+  background-color: #ccc;
+  margin: 1px 0;
+}
+
+nav {
+  overflow: hidden;
+  padding-top: 1vh;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  padding: 8px 16px;
+  display: block;
+  float: left;
+}
+
+nav .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav .right-links {
+  float: right;
+}
+
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^ top bar ^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
+
+.sign-up {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.sign-up .div {
+  background-color: #ffffff;
+  width: 1280px;
+  height: 832px;
+  position: relative;
+}
+
+.sign-up .profile-icon {
+  position: absolute;
+  width: 185px;
+  height: 195px;
+  top: 318px;
+  left: 50px;
+  object-fit: cover;
+}
+
+.sign-up .text-wrapper {
+  position: absolute;
+  width: 302px;
+  top: 184px;
+  left: 332px;
+  font-family: "ABeeZee", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.sign-up .overlap {
+  width: 302px;
+  top: 243px;
+  position: absolute;
+  height: 41px;
+  left: 332px;
+}
+
+.sign-up .text-wrapper-2 {
+  position: absolute;
+  width: 302px;
+  top: 0;
+  left: 0;
+  font-family: "ABeeZee", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.sign-up .text-wrapper-3 {
+  position: absolute;
+  top: 0;
+  left: 171px;
+  font-family: "ABeeZee", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.sign-up .overlap-group {
+  width: 315px;
+  top: 359px;
+  position: absolute;
+  height: 41px;
+  left: 332px;
+}
+
+.sign-up .overlap-2 {
+  width: 302px;
+  top: 417px;
+  position: absolute;
+  height: 41px;
+  left: 332px;
+}
+
+.sign-up .text-wrapper-4 {
+  position: absolute;
+  top: 2px;
+  left: 171px;
+  font-family: "ABeeZee", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.sign-up .overlap-3 {
+  width: 302px;
+  top: 471px;
+  position: absolute;
+  height: 41px;
+  left: 332px;
+}
+
+.sign-up .overlap-4 {
+  width: 722px;
+  top: 525px;
+  position: absolute;
+  height: 41px;
+  left: 332px;
+}
+
+.sign-up .overlap-5 {
+  width: 393px;
+  top: 585px;
+  position: absolute;
+  height: 41px;
+  left: 332px;
+}
+
+.sign-up .overlap-group-2 {
+  width: 302px;
+  top: 301px;
+  position: absolute;
+  height: 41px;
+  left: 332px;
+}

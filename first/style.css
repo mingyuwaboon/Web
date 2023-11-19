@@ -1,0 +1,197 @@
+body {
+  font-family: 'ABeeZee', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header::after {
+  content: '';
+  display: block;
+  height: 1px;
+  background-color: #ccc;
+  margin: 1px 0;
+}
+
+nav {
+  overflow: hidden;
+  padding-top: 1vh;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  padding: 8px 16px;
+  display: block;
+  float: left;
+}
+
+nav .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav .right-links {
+  float: right;
+}
+
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^ top bar ^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
+
+.first {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.first .overlap-wrapper {
+  background-color: #ffffff;
+  width: 1280px;
+  height: 832px;
+}
+
+.first .overlap {
+  position: relative;
+  height: 832px;
+}
+
+.first .overlap-group {
+  position: absolute;
+  width: 1224px;
+  height: 832px;
+  top: 0;
+  left: 56px;
+}
+
+.first .image {
+  position: absolute;
+  width: 539px;
+  height: 429px;
+  top: 403px;
+  left: 685px;
+  object-fit: cover;
+}
+
+.first .vector {
+  position: absolute;
+  width: 760px;
+  height: 199px;
+  top: 633px;
+  left: 77px;
+}
+
+.first .img {
+  width: 311px;
+  height: 299px;
+  left: 913px;
+  position: absolute;
+  top: 0;
+}
+
+.first .frame {
+  display: flex;
+  width: 915px;
+  height: 146px;
+  position: absolute;
+  top: 286px;
+  left: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.first .div {
+  display: inline-flex;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -17px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.first .title {
+  margin-top: -1px;
+  color: var(--inkdark);
+  font-size: 80px;
+  position: relative;
+  width: 932px;
+  font-family: "ABeeZee", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.first .text-wrapper {
+  color: var(--ink-light);
+  font-size: 24px;
+  position: relative;
+  width: 932px;
+  font-family: "ABeeZee", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.first .vector-2 {
+  width: 439px;
+  height: 271px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.first .tag {
+  display: flex;
+  width: 198px;
+  height: 89px;
+  left: 77px;
+  background-color: #4f1708;
+  align-items: center;
+  padding: 24px 32px;
+  position: absolute;
+  top: 473px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.first .label {
+  width: 151px;
+  height: 40px;
+  margin-top: -2.97px;
+  margin-right: -17px;
+  color: var(--white);
+  position: relative;
+  font-family: "ABeeZee", Helvetica;
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.first .label-wrapper {
+  display: inline-flex;
+  left: 310px;
+  background-color: #ece3d4;
+  align-items: center;
+  padding: 24px 32px;
+  position: absolute;
+  top: 473px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.first .label-2 {
+  width: fit-content;
+  margin-top: -3.47px;
+  color: #4f1708;
+  white-space: nowrap;
+  position: relative;
+  font-family: "ABeeZee", Helvetica;
+  font-weight: 400;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}

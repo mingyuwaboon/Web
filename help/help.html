@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Train Ticket Help</title>
+  <link rel="stylesheet" href="style_help.css"> <!-- Include your stylesheet -->
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left-links">
+        <a href="../map/map.html">Train Line</a>
+        <a href="../menu/menu.html">Ticket</a>
+      </div>
+      <div class="right-links">
+        <a href="#">EN</a>
+        <a href="help.html">Help</a>
+        <a href="#" id="userLink">Sign in</a> <!--ต้องเช็คเองว่าผ่านไหม-->
+
+      </div>
+    </nav>
+  </header>
+
+  <script>
+    var isLoggedIn = false;
+
+    document.addEventListener("DOMContentLoaded", function () {
+      var userLink = document.getElementById("userLink");
+
+      if (isLoggedIn) {
+        userLink.innerHTML = 'Username';
+        userLink.href = '../profile/Profile.html';
+      } else {
+        userLink.innerHTML = 'Sign in';
+        userLink.href = '../Signin/Signin.html';
+      }
+    });
+  </script>
+
+  <div class="content">
+    <h1>Help Center</h1>
+    <p>Welcome to our Help Center! If you have any questions or issues, you can find assistance here.</p>
+
+    <h2>Frequently Asked Questions</h2>
+    <ul>
+      <li><strong>How to buy a ticket?</strong> - Learn how to purchase train tickets on our platform.</li>
+      <li><strong>Can I cancel or modify my reservation?</strong> - Find information on reservation changes.</li>
+      <li><strong>What payment methods are accepted?</strong> - Check the accepted payment options.</li>
+    </ul>
+
+    <h2>Contact Us</h2>
+    <p>If you can't find the information you need, please contact our support team:</p>
+    <ul>
+      <li>Email: support@yourtrainwebsite.com</li>
+      <li>Phone: +1 (555) 123-4567</li>
+    </ul>
+
+    <p>We're here to help you!</p>
+  </div>
+
+  <footer>
+    <!-- Your footer content goes here -->
+  </footer>
+</body>
+
+</html>

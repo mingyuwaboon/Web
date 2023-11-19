@@ -1,0 +1,116 @@
+body {
+  font-family: 'ABeeZee', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header::after {
+  content: '';
+  display: block;
+  height: 1px;
+  background-color: #ccc;
+  margin: 1px 0;
+}
+
+nav {
+  overflow: hidden;
+  padding-top: 1vh;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  padding: 8px 16px;
+  display: block;
+  float: left;
+}
+
+nav .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav .right-links {
+  float: right;
+}
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^ top bar ^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
+.menu {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.menu .div {
+  background-color: #ffffff;
+  width: 1280px;
+  height: 832px;
+  position: relative;
+}
+
+.menu .image { 
+  top: 40vh;
+  left: 28vw;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.menu .tag {
+  left: 26.5vw;
+  display: inline-flex;
+  align-items: center;
+  padding: 24px 32px;
+  position: absolute;
+  top: 60vh;
+  background-color: #ece3d4;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.menu .label {
+  position: relative;
+  width: fit-content;
+  margin-top: -3.47px;
+  font-family: "ABeeZee", Helvetica;
+  font-weight: 400;
+  color: #4f1708;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.menu .label-wrapper {
+  left: 42vw;
+  display: inline-flex;
+  align-items: center;
+  padding: 24px 32px;
+  position: absolute;
+  top: 60vh;
+  background-color: #ece3d4;
+  border-radius: 24px;
+  overflow: hidden;
+  margin-left: 50px;
+}
+
+.menu .img {
+  top: 40vh;
+  left: 44vw;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 800px) {
+  .menu {
+    width: 100%;
+    
+  }
+}

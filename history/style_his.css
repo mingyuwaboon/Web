@@ -1,0 +1,65 @@
+body {
+    font-family: 'ABeeZee', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: #ccc;
+    margin: 1px 0;
+}
+
+nav {
+    overflow: hidden;
+    padding-top: 1vh;
+}
+
+nav a {
+    display: flex;
+    text-decoration: none;
+    color: #000000;
+    padding: 8px 16px;
+    display: block;
+    float: left;
+}
+
+nav .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav .right-links {
+    float: right;
+}
+
+.content{
+    margin-left: 2vw;
+}
+
+.table{
+    margin-left: 2vw;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #695624;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}

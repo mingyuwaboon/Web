@@ -1,0 +1,203 @@
+
+body {
+  font-family: 'ABeeZee', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header::after {
+  content: '';
+  display: block;
+  height: 1px;
+  background-color: #ccc;
+  margin: 1px 0;
+}
+
+nav {
+  overflow: hidden;
+  padding-top: 1vh;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  padding: 8px 16px;
+  display: block;
+  float: left;
+}
+
+nav .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav .right-links {
+  float: right;
+}
+
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^ top bar ^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
+
+
+
+.sign-up .text-wrapper {
+  position: absolute;
+  width: 50%;
+  top: 107px;
+  left: 77px;
+  font-family: "ABeeZee-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.sign-up .inputfield-with {
+  display: flex;
+  flex-direction: column;
+  width: 448px;
+  align-items: flex-start;
+  gap: 4px;
+  position: absolute;
+  top: 255px;
+  left: 599px;
+}
+
+.sign-up .label {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "ABeeZee-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--inkdark);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.sign-up .input-field {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--cloudnormal);
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: var(--clouddark);
+}
+
+.sign-up .inputfield-with-2 {
+  top: 341px;
+  left: 77px;
+  display: flex;
+  flex-direction: column;
+  width: 448px;
+  align-items: flex-start;
+  gap: 4px;
+  position: absolute;
+}
+
+.sign-up .inputfield-with-3 {
+  top: 436px;
+  left: 77px;
+  display: flex;
+  flex-direction: column;
+  width: 448px;
+  align-items: flex-start;
+  gap: 4px;
+  position: absolute;
+}
+
+.sign-up .inputfield-with-4 {
+  top: 538px;
+  left: 77px;
+  display: flex;
+  flex-direction: column;
+  width: 448px;
+  align-items: flex-start;
+  gap: 4px;
+  position: absolute;
+}
+
+.sign-up .inputfield-with-5 {
+  height: 84px;
+  top: 255px;
+  left: 77px;
+  display: flex;
+  flex-direction: column;
+  width: 448px;
+  align-items: flex-start;
+  gap: 4px;
+  position: absolute;
+}
+
+.sign-up .inputfield-with-6 {
+  height: 84px;
+  top: 152px;
+  left: 77px;
+  display: flex;
+  flex-direction: column;
+  width: 448px;
+  align-items: flex-start;
+  gap: 4px;
+  position: absolute;
+}
+
+.sign-up .inputfield-with-7 {
+  top: 149px;
+  left: 599px;
+  display: flex;
+  flex-direction: column;
+  width: 448px;
+  align-items: flex-start;
+  gap: 4px;
+  position: absolute;
+}
+
+.sign-up .tag {
+  display: flex;
+  width: 122px;
+  height: 45px;
+  align-items: center;
+  padding: 24px 41px 24px 32px;
+  position: absolute;
+  top: 660px;
+  left: 73px;
+  background-color: #d4ecd4;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.sign-up .label-2 {
+  position: relative;
+  width: 130px;
+  margin-top: -14.47px;
+  margin-bottom: -7.53px;
+  margin-right: -41px;
+  font-family: "ABeeZee-Regular", Helvetica;
+  font-weight: 400;
+  color: #4f1708;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.sign-up .label-wrapper {
+  display: flex;
+  width: 122px;
+  height: 45px;
+  align-items: center;
+  padding: 24px 41px 24px 32px;
+  position: absolute;
+  top: 660px;
+  left: 206px;
+  background-color: #ecdbd4;
+  border-radius: 24px;
+  overflow: hidden;
+}

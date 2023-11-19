@@ -1,0 +1,83 @@
+body {
+    font-family: 'ABeeZee', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: #ccc;
+    margin: 1px 0;
+}
+
+nav {
+    overflow: hidden;
+    padding-top: 1vh;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    padding: 8px 16px;
+    display: block;
+    float: left;
+}
+
+nav .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav .right-links {
+    float: right;
+}
+
+
+/*^^^^^^^^^^^^^^^^^^^^^^^^^^ top bar ^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+
+section {
+    margin-left: 2vw;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+select,
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.input-group {
+    display: flex;
+    gap: 20px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
